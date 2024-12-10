@@ -16,6 +16,8 @@ import org.springframework.util.DigestUtils;
 @Service
 public class EmployeeServiceImpl implements EmployeeService {
 
+    //springboot会自动将EmployeeMapper接口实例化
+    //使用实现类employeeMapper中的方法可以查找数据库
     @Autowired
     private EmployeeMapper employeeMapper;
 

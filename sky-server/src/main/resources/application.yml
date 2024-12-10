@@ -1,3 +1,6 @@
+#就是首先要满足这些文件在特定位置(src/main/resources)，Spring Boot框架才能读到。
+#其次application.yml中的active: dev这部分是dev，那么就去读取application-dev.yml中的配置信息
+#目前只有dev环境
 server:
   port: 8080
 
